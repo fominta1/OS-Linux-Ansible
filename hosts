@@ -1,0 +1,3 @@
+[my_vms_taty]
+jammy ansible_host=127.0.0.1 ansible_user=taty ansible_port=9922 ansible_sudo_pass=68128068
+

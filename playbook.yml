@@ -1,0 +1,9 @@
+- hosts: my_vms_taty
+  tasks:
+    - name: Update apt cache and install required packages if not installed
+      ansible.builtin.apt:
+        update_cache: yes
+        pkg:
+          - cmatrix
+          - cowsay
+          - sl
